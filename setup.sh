@@ -34,4 +34,3 @@ helm upgrade --install monitoring prometheus-community/kube-prometheus-stack \
 # 6. Database clusters and monitoring
 kubectl apply -f postgres/
 kubectl apply -f monitoring/
-kubectl apply -f cnpg-operator-podmonitor.yaml
